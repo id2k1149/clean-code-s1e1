@@ -52,6 +52,11 @@ button {
   outline: none;
 }
 
+.item,
+.heading {
+  list-style: none;
+}
+
 button {
   background: none;
   border: 0px;
