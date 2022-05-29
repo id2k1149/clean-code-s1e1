@@ -38,7 +38,7 @@
   flex-grow: 1;
 }
 
-.new-task-wrapper {
+.add-task__wrapper {
   display: flex;
 }
 
@@ -73,7 +73,7 @@ button:hover {
 
 /* Heading */
 .heading,
-.new-task-heading {
+.add-task__heading {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -101,7 +101,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.new-task-heading {
+.add-task__heading {
   display: block;
   margin: 0 0 20px;
 }
