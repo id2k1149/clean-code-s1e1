@@ -140,13 +140,13 @@ li > .input-text {
   width: 226px;
 }
 
-.delete img {
+.remove {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.remove:hover {
   transform: rotateZ(0);
 }
 
