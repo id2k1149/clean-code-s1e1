@@ -112,7 +112,8 @@
 }
 
 /* Task list */
-li {
+.item,
+.edit-mode {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -121,7 +122,8 @@ li {
   align-items: center;
 }
 
-li > * {
+.item > *,
+.edit-mode > * {
   vertical-align: middle;
 }
 
@@ -129,14 +131,16 @@ li > .input-checkbox {
   margin: 0 10px;
 }
 
-li > label {
+.item > label,
+.edit-mode > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-li > .input-text {
+.item > .input-text,
+.edit-mode > .input-text {
   width: 226px;
 }
 
