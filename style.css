@@ -143,8 +143,7 @@
   width: 226px;
 }
 
-.item > .input-text,
-.edit-mode > .input-text {
+.item > .input-text {
   width: 226px;
 }
 
@@ -165,8 +164,7 @@
 }
 
 /* Edit Task */
-.list .item .input-text,
-.list .edit-mode .input-text {
+.list .item .input-text {
   display: none;
 }
 
@@ -175,6 +173,6 @@
   width: 224px;
 }
 
-.list .edit-mode p {
+.list .edit-mode .task {
   display: none;
 }
