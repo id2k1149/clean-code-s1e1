@@ -127,7 +127,8 @@
   vertical-align: middle;
 }
 
-li > .input-checkbox {
+.item > .input-checkbox,
+.edit-mode > .input-checkbox {
   margin: 0 10px;
 }
 
@@ -155,21 +156,22 @@ li > .input-checkbox {
 }
 
 /* Completed */
-#completed-tasks label {
+#completed-tasks .task {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.list li input[type=text] {
+.list .item .input-text,
+.list .edit-mode .input-text {
   display: none;
 }
 
-.list li.edit-mode input[type=text] {
+.list .edit-mode .input-text {
   display: inline-block;
   width: 224px;
 }
 
-.list li.edit-mode label {
+.list .edit-mode label {
   display: none;
 }
