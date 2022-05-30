@@ -159,7 +159,7 @@
 }
 
 /* Completed */
-#completed-tasks p {
+#completed-tasks .task {
   text-decoration: line-through;
   color: #888;
 }
